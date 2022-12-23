@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet"type="text/css" href="calci.css">
+	<title>calculator</title> 
+</head>
+<body>
+	<h1 align="center" ; class="four"> <b><i>CALCULATOR</i></b></h1>
+	<div class="three">
+	<form class="one"> <input class="two" type="text" id="result"/ ></form>
+	<div class="container">
+		<button value="(" onclick="dis('(')">(</button>
+		<button value=")" onclick="dis(')')">)</button>
+		<button value="%" onclick="dis('%')">%</button>
+        <button value="Del" onclick="del()">Del</button>
+        <button value="AC" onclick="clr()">AC</button>
+
+        <button value="1" onclick="dis('1')">1</button>
+		<button value="2" onclick="dis('2')">2</button>
+		<button value="3" onclick="dis('3')">3</button>
+        <button value="+" onclick="dis('+')">+</button>
+		
+        <button value="4" onclick="dis('4')">4</button>
+		<button value="5" onclick="dis('5')">5</button>
+		<button value="6" onclick="dis('6')">6</button>
+        <button value="-" onclick="dis('-')">-</button>
+		
+        <button value="7" onclick="dis('7')">7</button>
+		<button value="8" onclick="dis('8')">8</button>
+		<button value="9" onclick="dis('9')">9</button>
+        <button value="&times" onclick="dis('*')">&times</button>
+		
+		<button value="=" onclick="solve()" id="equal" class="five">=</button>
+		
+		
+		<button value="." onclick="dis('.')">.</button>
+		<button value="0" onclick="dis('0')">0</button>
+        <button value="&radic" onclick="dis('**(1/2)')">&radic;</button>
+        
+        <button value="&divide" onclick="dis('/')">&divide</button>
+	</div>
+</div>
+<script type="text/javascript" src="calci.js"></script>
+
+</body>
+</html>
